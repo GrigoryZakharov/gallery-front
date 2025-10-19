@@ -1,5 +1,7 @@
 import styles from './Header.module.scss';
 import { useEffect, useState } from "react";
+import logoLight from '../../assets/logo-light-theme.png';
+import logo from '../../assets/logo.png';
 
 const Header = () => {
   const [theme, setTheme] = useState<"light" | "dark">(
@@ -19,9 +21,9 @@ const Header = () => {
   return (
     <header className={styles.header}>
       {theme === "light" ? (
-        <img src="/logo-light-theme.png" alt="logo" className={styles.logo} />
+        <img src={logoLight} alt="logo" className={styles.logo} />
       ) : (
-        <img src="/logo" alt="logo" className={styles.logo} />
+        <img src={logo} alt="logo" className={styles.logo} />
       )}
       <button className={styles.ThemeBtn} onClick={toggleTheme} >
         {theme === "light" ?  (
