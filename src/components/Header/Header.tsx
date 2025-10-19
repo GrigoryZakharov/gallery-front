@@ -1,6 +1,6 @@
 import styles from './Header.module.scss';
 import { useEffect, useState } from "react";
-  
+
 const Header = () => {
   const [theme, setTheme] = useState<"light" | "dark">(
     (localStorage.getItem("theme") as "light" | "dark") || "light"
@@ -19,9 +19,9 @@ const Header = () => {
   return (
     <header className={styles.header}>
       {theme === "light" ? (
-        <img src="../../public/logo-light-theme.png" alt="logo" className={styles.logo} />
+        <img src="/logo-light-theme.png" alt="logo" className={styles.logo} />
       ) : (
-        <img src="../../public/logo.png" alt="logo" className={styles.logo} />
+        <img src="/logo" alt="logo" className={styles.logo} />
       )}
       <button className={styles.ThemeBtn} onClick={toggleTheme} >
         {theme === "light" ?  (
