@@ -1,0 +1,48 @@
+.searchBar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 40px 10px 40px; // слева для поиска, справа для крестика
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--secondary-color);
+}
+
+.icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none; // чтобы иконка не мешала кликам и вводу текста
+}
+
+.clearBtn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 2px;
+
+  svg {
+    width: 18px;
+    height: 18px;
+    color: var(--shade-color);
+  }
+
+  &:hover svg {
+    color: var(--text-color);
+  }
+}

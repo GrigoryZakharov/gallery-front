@@ -1,0 +1,44 @@
+.header {
+  background: var(--card-bg);
+  padding: 16px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+}
+.logo {
+  height: 30px;
+  width: auto;
+  margin-left: 50px;
+}
+.ThemeBtn {
+  margin-left: auto;
+  margin-right: 50px;
+  width: 40px;              
+  height: 40px;           
+  border-radius: 50%;   
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  display: flex;           
+  align-items: center;     
+  justify-content: center;  
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    background-color: var(--bg-color);
+    transform: scale(1.1);
+  }
+
+  svg {
+    width: 22px;
+    height: 22px;
+    stroke: var(--text-color); 
+    transition: stroke 0.3s ease;
+  }
+}
+.sun {
+  fill: black;
+}
+.moon {
+  fill: white;
+}
