@@ -10,6 +10,9 @@
   height: 30px;
   width: auto;
   margin-left: 50px;
+  @media  (max-width: 1023px){
+    margin-left: 10px;
+  }
 }
 .ThemeBtn {
   margin-left: auto;
@@ -23,6 +26,9 @@
   align-items: center;     
   justify-content: center;  
   transition: background-color 0.3s ease, transform 0.2s ease;
+  @media  (max-width: 1023px){
+    margin-right: 10px;
+  }
 
   &:hover {
     background-color: var(--bg-color);
