@@ -19,6 +19,9 @@
       border-bottom: 1px solid var(--primary-grey);
       color: var(--text-color);
       font-weight: bold;
+      @media (max-width: 767px) {
+        border-bottom: none;
+      }
     }
 
     &:disabled {
