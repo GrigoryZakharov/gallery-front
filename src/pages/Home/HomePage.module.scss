@@ -29,14 +29,16 @@
   }
 }
 h4 {
-  font-size: 20px;
-  color: var(--text-color);
+  font-size: 16px;
+  color: var(--primary-grey);
+  font-family: Inter;
+  font-weight: 300;
 }
 span {
   font-size: 14px;
-  color: var(--shade-color);
+  color: var(--secondary-grey);
 }
 .highlight{
-  font-weight: 700;
-  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 900;
 }

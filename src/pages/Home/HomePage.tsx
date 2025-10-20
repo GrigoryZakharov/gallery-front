@@ -60,7 +60,7 @@ function HomePage() {
                     ))
                 ) : (
                     <div>
-                    <h4>No matches for <strong className={styles.highlight}>{searchTerm}</strong></h4>
+                    <h4>No matches for <span className={styles.highlight}>{searchTerm}</span></h4>
                     <span>Please try again with a different spelling or keywords.</span>
                     </div>
                 )}

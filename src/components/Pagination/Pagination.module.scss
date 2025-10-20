@@ -5,18 +5,20 @@
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 80px;
+  font-size: 16px;
 
   button {
     padding: 4px 8px;
-    background: var(--bg-color);
+    background: var(--primary-color);
     cursor: pointer;
-    color: var(--shade-color);
+    color: var(--primary-grey);
     border: none;
     border-bottom: 1px solid transparent;
 
     &:hover:not(:first-child):not(:last-child) {
-      border-bottom: 1px solid var(--shade-color);
+      border-bottom: 1px solid var(--primary-grey);
       color: var(--text-color);
+      font-weight: bold;
     }
 
     &:disabled {

@@ -1,5 +1,5 @@
 .card {
-  background: var(--card-bg);
+  background: var(--primary-color);
   overflow: hidden;
   transition: transform 0.3s ease;
   width: 100%;
@@ -32,7 +32,7 @@
   left: 0;
   width: 70%;
   height: 30%;
-  background-color: var(--card-bg);
+  background-color: var(--primary-color);
   color: var(--text-color);
   overflow: hidden;
   
@@ -43,7 +43,7 @@
     top: 20%;             
     height: 60%;           
     width: 1px;            
-    background-color: var(--p-color);
+    background-color: var(--accent-color);
   }
 }
 
@@ -58,14 +58,12 @@
   text-align: left;
   h3 {
     margin: 0 0 ;
-    font-size: 20px;
-    font-family: 'Cormorant SC';
-    font-weight: 500px;
+    @media (max-width: 767px) {
+      margin-top:8px;
+    }
   }
   p {
     margin: 10px 0;
-    font-size: 14px;
-    font-weight: 600;
   }
 }
 

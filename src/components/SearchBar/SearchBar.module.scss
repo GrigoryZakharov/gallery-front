@@ -4,16 +4,27 @@
   align-items: center;
   width: 100%;
   max-width: 400px;
+  font-size: 14px;
+  @media (max-width: 767px) {
+    font-size: 12px;
+  }
+  
+  border: 1px solid var(--primary-color);
+  border-radius: 6px; 
+  transition: border-color 0.2s ease; 
 }
+
+.searchBar:focus-within {
+  border-color: var(--primary-grey); 
+}
+
 
 .input {
   width: 100%;
-  padding: 10px 40px 10px 40px; // слева для поиска, справа для крестика
-  font-size: 16px;
+  padding: 10px 40px 10px 40px; 
   outline: none;
   border: none;
   border-radius: 6px;
-  background-color: var(--secondary-color);
 }
 
 .icon {
@@ -23,7 +34,7 @@
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  pointer-events: none; // чтобы иконка не мешала кликам и вводу текста
+  pointer-events: none; 
 }
 
 .clearBtn {
@@ -39,7 +50,7 @@
   svg {
     width: 18px;
     height: 18px;
-    color: var(--shade-color);
+    color: var(--primary-grey);
   }
 
   &:hover svg {
