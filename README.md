@@ -1,5 +1,3 @@
-Got it! Here’s a polished, professional README tailored for your **React + TypeScript + Vite gallery frontend project**. I made it informative but concise, with sections for live demo, tech stack, setup, and contribution instructions. You can replace the placeholders with actual links.
-
 # Grigory Zakharov | Gallery Frontend
 
 <img width="1920" height="950" alt="изображение" src="https://github.com/user-attachments/assets/60881afe-bccb-488c-bcaf-93f18437111d" />
