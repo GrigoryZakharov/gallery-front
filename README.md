@@ -9,7 +9,7 @@ This is the **frontend** for my personal gallery project, built with **React**, 
 
 ## 🌐 Live Demo
 
-Check out the live demo: [Live Gallery URL](https://your-username.github.io/gallery-frontend)  
+Check out the live demo: [Live Gallery URL]([https://grigoryzakharov.github.io/gallery-front/])  
 
 ---
 
